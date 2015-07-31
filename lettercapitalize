@@ -1,0 +1,14 @@
+def LetterCapitalize(str)
+  new_string = ""
+  string.split.each do |word|
+    new_string = new_string + "#{word.capitalize}"
+  end
+
+  # code goes here
+  return new_string 
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+LetterCapitalize(STDIN.gets)           
